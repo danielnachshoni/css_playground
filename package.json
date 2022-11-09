@@ -1,0 +1,18 @@
+{
+  "name": "newtest1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss compiled_index.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

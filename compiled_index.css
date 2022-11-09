@@ -1,0 +1,13 @@
+.grid .row {
+  max-width: 114rem;
+  margin: 0 auto;
+  background-color: #dbdbdb; }
+  .grid .row:not(:last-child) {
+    margin-bottom: 8rem; }
+
+html {
+  font-size: 10px; }
+
+* {
+  margin: 0;
+  box-sizing: border-box; }

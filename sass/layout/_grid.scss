@@ -1,0 +1,12 @@
+.grid {
+    .row {
+        max-width: $grid-width;
+        margin: 0 auto;
+        background-color: rgb(219, 219, 219);
+        
+        &:not(:last-child) { //everyone who ISN'T the last child would get the follow margin
+            margin-bottom: $gutter-vertical;
+        }
+    }
+}
+
